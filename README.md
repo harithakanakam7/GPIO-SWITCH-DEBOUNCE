@@ -57,15 +57,11 @@ Configure an on-board switch pin as a GPIO input with an internal pull-up resist
 19. Observe the main loop operation during the debounce period and verify that it continues executing other application tasks without being blocked by a delay function.
 
 20. Compare the behaviour with a conventional blocking-delay debounce method and verify that the **GPIO interrupt + timer-based method eliminates false triggering while maintaining non-blocking main-loop operation**.
-
+    
 
 ---
 ## OUTPUT
-
-
-
-
-
+<img width="1280" height="959" alt="WhatsApp Image 2026-09-17 at 10 27 45 AM" src="https://github.com/user-attachments/assets/22092109-28d2-463d-96a3-5050399a1c31" />
 
 
 
